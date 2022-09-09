@@ -5,12 +5,16 @@
 <section>
   <div class="flex flex-col lg:flex-row w-full h-screen items-center">
     <div
-      class="flex-1 flex flex-col items-center lg:justify-center gap-5 lg:gap-10 order-2 lg:order-1 pb-10 lg:pb-0 pt-5 lg:pt-10"
+      class="flex-1 flex flex-col items-center lg:items-start lg:justify-center gap-5 lg:gap-10 order-2 lg:order-1 pb-10 lg:pb-0 pt-5 lg:pt-10"
     >
-      <div class="text-4xl lg:text-8xl font-serif text-center lg:text-left">
+      <div
+        class="text-4xl sm:text-6xl xl:text-8xl font-serif text-center lg:text-left"
+      >
         Lorem ipsum dolor sit amet.
       </div>
-      <div class="text-base font-serif lg:pr-56 text-center lg:text-left">
+      <div
+        class="text-base sm:text-lg xl:text-xl font-serif lg:pr-56 text-center lg:text-left"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit
         quos officiis, perferendis eveniet explicabo.
       </div>
