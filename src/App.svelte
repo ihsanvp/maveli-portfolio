@@ -1,7 +1,10 @@
+<script>
+  import Header from "./lib/Header.svelte";
+</script>
+
 <main>
-  <div class="text-sm font-semibold">WORKS</div>
-  <div class="font-serif text-2xl font-semibold">
-    UI/UX Intercation Designer
+  <div class="container mx-auto px-10">
+    <Header />
   </div>
 </main>
 
